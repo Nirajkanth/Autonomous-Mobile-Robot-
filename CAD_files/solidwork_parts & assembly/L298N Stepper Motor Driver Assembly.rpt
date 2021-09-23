@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Processor Status Report
+*****************************************************************
+=================================================================
+General Information
+=================================================================
+Sending System Product I.D.  : L298N Stepper Motor Driver Assembly
+Receiving System Product I.D.: L298N Stepper Motor Driver Assembly
+File Name                    : C:\Users\HP\Desktop\Internship Project\Path follower bot\L298N Stepper Motor Driver\L298N Stepper Motor Driver Assembly.IGS
+Sending System               : SolidWorks 2016
+Preprocessor Version         : SolidWorks 2016
+File Creation Date           : 201003.144700
+Model Creation Date          : 201003.144700
+Units                        : MM
+Model Space Scale            : 1
+Author                       : HP
+Organization                 : 
+
+
+=================================================================
+Entity Processing Information
+=================================================================
+
+
+=================================================================
+Precision analysis of IGES file:
+=================================================================
+  Most prevalent number of significant digits:               3
+  Highest number of significant digits:                     13
+  Average number of significant digits:                5.31565
+  Maximum distance to origin:                          1006.36
+  Minimum distance to origin:                                0
+  Effective number of significant digits:                   13
+
+
+=================================================================
+Entity Summary
+=================================================================
+-----------------------------------------------------------------
+Type Name                                         Count Converted
+---- ----                                         ----- ---------
+100  Arc                                            598       598
+102  Composite curve                               3596      3596
+110  Line                                          5536      5536
+120  Surface of revolution                          179       179
+124  Transformation matrix                          603       603
+126  Rational B-spline curve                       9688      9688
+128  Rational B-spline surface                     1349      1349
+142  Curve on a parametric surface                 1798      1798
+144  Trimmed parametric surface                    1528      1528
+308  Subfigure definition                             3         3
+314  Color definition                               276       276
+408  Singular subfigure instance                      9         9
+_________________________________________________________________
+
+
+=================================================================
+Result Summary
+=================================================================
+SolidWorks Feature Type                Count
+-----------------------                -----
+Solid feature(s)                       3
+Surface feature(s)                     27
+Curve/Sketch feature(s)                0
+--------------------------------------------
+Start time: Saturday, October 03, 2020 14:47:16
+Finish time: Saturday, October 03, 2020 14:47:29
+Processing time: 0 days, 00 hours, 00 mins, 13 secs
