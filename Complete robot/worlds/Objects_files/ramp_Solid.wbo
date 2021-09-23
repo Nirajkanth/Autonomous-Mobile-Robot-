@@ -1,0 +1,163 @@
+#VRML_OBJ R2021a utf8
+DEF Ramp_Area Solid {
+  translation 1.14 0.09 -3.794
+  rotation 0 1 0 -3.1415853071795863
+  scale 9 9 9
+  children [
+    DEF Ramp_area_right_line Solid {
+      translation -0.034 -0.003 0.1
+      rotation 0 0 1 0.349
+      children [
+        Shape {
+          appearance Appearance {
+          }
+          geometry Box {
+            size 0.0412 0.0011 0.003
+          }
+        }
+      ]
+      name "solid(5)"
+      boundingObject Box {
+        size 0.0412 0.001 0.035
+      }
+    }
+    DEF Ramp_area_right Solid {
+      translation -0.034 -0.003 0.1
+      rotation 0 0 1 0.349
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 0.9
+            metalness 0
+          }
+          geometry Box {
+            size 0.0412 0.001 0.035
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject Box {
+        size 0.0412 0.001 0.035
+      }
+    }
+    DEF Ramp_area_center_line_2 Solid {
+      translation 0.003 0.004 0.0905
+      children [
+        Shape {
+          geometry Box {
+            size 0.003 0.00101 0.0164
+          }
+        }
+      ]
+      name "solid(9)"
+      boundingObject Box {
+        size 0.003 0.00101 0.0164
+      }
+    }
+    DEF Ramp_area_center_line_1 Solid {
+      translation 0.003 0.004 0.1
+      children [
+        Shape {
+          geometry Box {
+            size 0.035 0.00101 0.003
+          }
+        }
+      ]
+      name "solid(8)"
+      boundingObject Box {
+        size 0.035 0.001 0.035
+      }
+    }
+    DEF Ramp_area_center Solid {
+      translation 0.003 0.004 0.1
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 0.9
+            metalness 0.4
+          }
+          geometry Box {
+            size 0.035 0.001 0.035
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject Box {
+        size 0.035 0.001 0.035
+      }
+    }
+    DEF Ramp_area_left_line Solid {
+      translation 0.04 -0.003 0.1
+      rotation 0 0 1 -0.34957
+      children [
+        Shape {
+          geometry Box {
+            size 0.0412 0.0011 0.003
+          }
+        }
+      ]
+      name "solid(6)"
+      boundingObject Box {
+        size 0.0412 0.001 0.035
+      }
+    }
+    DEF Ramp_area_left Solid {
+      translation 0.04 -0.003 0.1
+      rotation 0 0 1 -0.34957
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 0.9
+            metalness 0.4
+          }
+          geometry Box {
+            size 0.0412 0.001 0.035
+          }
+        }
+      ]
+      name "solid(4)"
+      boundingObject Box {
+        size 0.0412 0.001 0.035
+      }
+    }
+    DEF Ramp_area_front_line Solid {
+      translation 0.003 -0.003 0.063
+      rotation 1 0 0 -0.349
+      children [
+        Shape {
+          geometry Box {
+            size 0.003 0.00101 0.0412
+          }
+        }
+      ]
+      name "solid(7)"
+      boundingObject Box {
+        size 0.035 0.001 0.0412
+      }
+    }
+    DEF Ramp_area_front Solid {
+      translation 0.003 -0.003 0.063
+      rotation 1 0 0 -0.349
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 0.9
+            metalness 0.4
+          }
+          geometry Box {
+            size 0.035 0.001 0.0412
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject Box {
+        size 0.035 0.001 0.0412
+      }
+    }
+  ]
+  name "solid(10)"
+}

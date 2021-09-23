@@ -1,0 +1,227 @@
+#VRML_OBJ R2021a utf8
+DEF gate Robot {
+  children [
+    DEF left_gate1 Solid {
+      translation -0.06000025813001091 0.02494535528356062 -4.3800000000001225
+      rotation -0.2820518457774372 0.003071168883263613 -0.9593942485835691 3.361916222343221e-06
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            position -2.825276459450521e-07
+            axis 0 0 1
+            anchor 0 0.005 -0.025
+          }
+          device [
+            RotationalMotor {
+              name "l1"
+            }
+          ]
+          endPoint Solid {
+            translation 0.17999999858735438 -5.085497608182249e-08 -0.04000000000000001
+            rotation 0 0 -1 2.8272965492323474e-07
+            children [
+              DEF gate Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.4 0.02 0.02
+                }
+              }
+            ]
+            boundingObject USE gate
+            physics Physics {
+            }
+            linearVelocity -1.9772778383925768e-14 -7.049028027935064e-13 2.2241591822214474e-14
+            angularVelocity -2.9014905299582945e-15 -1.719338115510218e-17 -3.916235581799661e-12
+          }
+        }
+        DEF cube Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.5 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "solid(51)"
+      boundingObject USE cube
+      physics Physics {
+      }
+      linearVelocity 1.7345387601520064e-16 5.6843418860808e-17 -2.2202731851037246e-14
+      angularVelocity -7.905134481148836e-40 -4.179599374931618e-18 7.552551204033197e-40
+    }
+    DEF left_gate2 Solid {
+      translation -0.03999949853981259 0.024943817211070696 -3.8599999999993106
+      rotation -0.22910214040333512 -0.004551481100409132 -0.9733917470794599 4.407463507597743e-06
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            position -2.8666639506624847e-07
+            axis 0 0 1
+            anchor 0 0.0025 -0.025
+          }
+          device [
+            RotationalMotor {
+              name "l2"
+            }
+          ]
+          endPoint Solid {
+            translation 0.17999999928332347 -5.159995095658024e-08 -0.04000000000000016
+            rotation 0 0 -1 2.8740318897345554e-07
+            children [
+              DEF gate Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.4 0.02 0.02
+                }
+              }
+            ]
+            boundingObject USE gate
+            physics Physics {
+            }
+            linearVelocity 6.60409033826425e-11 7.570252015633987e-09 -4.55155579494563e-15
+            angularVelocity -2.1078368014749226e-13 2.604745308629969e-14 4.22344164995316e-08
+          }
+        }
+        DEF cube Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.5 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject USE cube
+      physics Physics {
+      }
+      linearVelocity -4.7044964331738525e-14 -3.782531621254747e-12 -1.1094318075368814e-14
+      angularVelocity -1.5347723092418157e-13 1.8651421553050878e-15 -9.54969436861574e-13
+    }
+    DEF right_gate1 Solid {
+      translation 2.5699997398604433 0.024945351644050606 -4.410000000000121
+      rotation -0.28329186815974994 0.0031082048509489986 -0.9590287047305536 3.3477144129799743e-06
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            position -2.825276563811485e-07
+            axis 0 0 1
+            anchor 0 0.0025 -0.025
+          }
+          device [
+            RotationalMotor {
+              name "r1"
+            }
+          ]
+          endPoint Solid {
+            translation 0.1799999992936735 -5.0854978070249274e-08 -0.04000000000000008
+            rotation 0 0 -1 2.8272965492323474e-07
+            children [
+              DEF gate Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.4 0.02 0.02
+                }
+              }
+            ]
+            boundingObject USE gate
+            physics Physics {
+            }
+            linearVelocity -9.820217721764607e-15 -7.085665387695247e-13 1.1122860726507085e-14
+            angularVelocity -8.526633854034804e-16 -1.1059688202970807e-17 -3.9370003516714486e-12
+          }
+        }
+        DEF cube Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.5 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject USE cube
+      physics Physics {
+      }
+      linearVelocity 1.110145933996296e-14 8.5265128291212e-17 -2.2202725492710103e-14
+      angularVelocity -8.321120749621519e-39 3.202191116435936e-17 5.7863709419227105e-39
+    }
+    DEF right_gate2 Solid {
+      translation 2.5700005014601746 0.024943817211747012 -3.82999999999934
+      rotation -0.22910214051984773 -0.004551481084146176 -0.9733917470521128 4.407463437285748e-06
+      children [
+        HingeJoint {
+          jointParameters HingeJointParameters {
+            position -2.866663952882931e-07
+            axis 0 0 1
+            anchor 0 0.0025 -0.025
+          }
+          device [
+            RotationalMotor {
+              name "r2"
+            }
+          ]
+          endPoint Solid {
+            translation 0.179999999283324 -5.15999510277039e-08 -0.04000000000000001
+            rotation 0 0 -1 2.8740318897345554e-07
+            children [
+              DEF gate Shape {
+                appearance PBRAppearance {
+                  baseColor 1 0 0
+                  roughness 1
+                  metalness 0
+                }
+                geometry Box {
+                  size 0.4 0.02 0.02
+                }
+              }
+            ]
+            boundingObject USE gate
+            physics Physics {
+            }
+            linearVelocity 6.604586335837537e-11 7.570248367633694e-09 -4.568012665351065e-15
+            angularVelocity -1.9983910519362712e-13 2.6034982620264962e-14 4.223439751907004e-08
+          }
+        }
+        DEF cube Shape {
+          appearance PBRAppearance {
+            baseColor 1 0.5 0
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.05 0.05 0.05
+          }
+        }
+      ]
+      name "solid(3)"
+      boundingObject USE cube
+      physics Physics {
+      }
+      linearVelocity -4.617709356083014e-14 -3.782503199545317e-12 -1.109431810620011e-14
+      angularVelocity -1.5347723092418157e-13 1.8710944252320334e-15 -9.54969436861574e-13
+    }
+  ]
+  name "gate"
+  controller "sync_gate"
+}

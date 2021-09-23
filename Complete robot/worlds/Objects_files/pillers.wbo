@@ -1,0 +1,85 @@
+#VRML_OBJ R2021a utf8
+DEF PILLAR_GROUP Group {
+  children [
+    Solid {
+      translation 0.63 0.049964683999999995 -4.79
+      rotation -0.7140681194306089 -0.6921557751143766 0.10501001756332554 -2.58655509188117e-16
+      children [
+        DEF Pillar Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.9 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.03 0.1 0.03
+          }
+        }
+      ]
+      name "solid(20)"
+      boundingObject USE Pillar
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 0.79 0.04996468400000001 -4.79
+      rotation -0.034029713306993545 -0.999420821582302 -1.8531370190678513e-15 -1.596335491731106e-16
+      children [
+        DEF Pillar Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.9 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.03 0.1 0.03
+          }
+        }
+      ]
+      name "solid(27)"
+      boundingObject USE Pillar
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 0.46 0.049964684 -4.79
+      rotation -0.07020136682035408 0.997502343720242 -0.0078001518689317755 6.964330956399136e-16
+      children [
+        DEF Pillar Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.9 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.03 0.1 0.03
+          }
+        }
+      ]
+      name "solid(21)"
+      boundingObject USE Pillar
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 2.15 0.049964683999999995 -4.79
+      rotation -0.31396224474331647 0.9448671335445825 -0.09302585029432273 4.671633869813435e-16
+      children [
+        DEF Pillar Shape {
+          appearance PBRAppearance {
+            baseColor 0 0.9 1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.03 0.1 0.03
+          }
+        }
+      ]
+      name "solid(22)"
+      boundingObject USE Pillar
+      physics Physics {
+      }
+    }
+  ]
+}
